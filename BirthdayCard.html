@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Card</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 350px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "🎂";
+      font-size: 80px;
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      transform: rotate(15deg);
+      opacity: 0.2;
+    }
+
+    .card h1 {
+      color: #ff6f61;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .card .signature {
+      font-style: italic;
+      color: #555;
+    }
+
+    .balloons {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="balloons">🎈🎉🎈</div>
+    <h1>Happy Birthday!</h1>
+    <p>Wishing you a day filled with love, joy, and cake! 🎂 May your year ahead be as wonderful as you are.</p>
+    <p class="signature">– From Sanskar</p>
+  </div>
+</body>
+</html>
