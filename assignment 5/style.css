@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.landingpage{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.curious{
+    background: yellow;
+    height: 400px;
+}
+#stay_curious{
+    margin: 0px;
+    font-size:8rem ;
+    font-weight: 300;
+}
+#landingpara{
+    font-size: 2rem;
+}
+#startreading{
+    padding: 5px;
+    font-size: 1.3rem;
+    /* font-weight: 70; */
+    border-radius: 70px;
+    color: aliceblue;
+    background: #000;
+}
+
+.logo{
+    width: 1300px;
+}
+
+#list{
+    /* padding-left: 350px; */
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: right; */
+    /* align-items: end; */
+}
+
+
+.cardcontainer{
+
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(3,1fr);
+}
+.card{
+    
+    display: flex;
+    flex-direction: column
+}
+.scrollingcard{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+h2{
+    font-size: larger;
+}
+p{
+    font-size: small;
+}
+.scroll-head{
+    font-size: medium;
+    font-weight: bold;
+}

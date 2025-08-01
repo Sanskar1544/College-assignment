@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Wikipedia</div>
+    <input type="text" placeholder="Search Wikipedia" id="searchBox" />
+  </header>
+
+  <div class="wrapper">
+    <aside id="sidebar">
+      <h3>Contents</h3>
+      <ul>
+        <li><a href="#history">History</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+      <button onclick="toggleSidebar()">Toggle Sidebar</button>
+    </aside>
+
+    <main>
+      <h1>Wikipedia Clone</h1>
+      <p>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+
+      <h2 id="history">History</h2>
+      <p>Wikipedia was launched on January 15, 2001...</p>
+
+      <h2 id="features">Features</h2>
+      <p>Wikipedia supports hyperlinks, citations, user editing, and much more...</p>
+
+      <h2 id="technology">Technology</h2>
+      <p>Wikipedia is primarily built on PHP and uses a MySQL backend...</p>
+
+      <h2 id="references">References</h2>
+      <ul>
+        <li>Wikipedia.org</li>
+        <li>Wikimedia Foundation</li>
+      </ul>
+    </main>
+  </div>
+
+  <footer>
+    <p>Wikipedia Clone | Created for learning purposes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

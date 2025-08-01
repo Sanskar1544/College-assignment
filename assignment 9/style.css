@@ -1,0 +1,31 @@
+body{
+    background: rgba(172, 238, 255, 0.945);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.calculator{
+    width: 300px;
+    padding: 2px;
+    background: bisque;
+    border: solid black 2px;
+    box-shadow: 3px;
+}
+#display{
+    margin: 2PX;
+    padding: 10px;
+    height: 200px;
+    width: 272px;
+    border: solid black 2px;
+    text-align: right;
+}
+.buttons{
+    padding: 2PX;
+    display: grid;
+    gap: 3PX;
+    grid-template-columns: repeat(4,1fr);
+}
+button{
+     border: solid black 2px;
+}

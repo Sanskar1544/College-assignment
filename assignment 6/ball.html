@@ -1,0 +1,97 @@
+w<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(214, 184, 49);
+            display: flex;
+            align-items: flex-start;
+            justify-items: center;
+        }
+    
+        /* .box1{
+             margin: 5px;
+            height: 4+0px;
+            width: 150px;
+            background: lightcoral;
+            border: solid black 2px;
+            position: relative;
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+        } */
+        @keyframes wave{
+            0% {
+        top: 0;
+        transform: scale(1, 1); /* Normal */
+      }
+      30% {
+        top: 199px;
+        transform: scale(1.05, 0.9); 
+      }
+      50% {
+        top: 200px;
+        transform: scale(1.1, 0.8);
+      }
+      70% {
+        top: 180px;
+        transform: scale(0.95, 1.05); 
+      }
+      100% {
+        top: 0;
+        transform: scale(1, 1); 
+      }
+            }
+        
+            
+
+        #circle{
+           animation-name: wave;
+           animation-duration: 1s;
+           animation-iteration-count: infinite;
+           animation-timing-function: ease-in-out;
+           animation-delay: 0s;
+           
+        }
+       
+        #circle{
+            width: 50px;
+            height: 50px;
+            background: lightslategray;
+            border: solid black 2px;
+            border-radius: 30px;
+            margin: 10px;
+            position: relative;
+            /* top: 200px ;
+            left: 100px; */
+        }
+       
+        /* @media (max-width:500px) {
+            body{
+                flex-direction: column;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .box1{
+                background: red;
+                transform: rotate(45deg);
+            }
+            .box2{
+                background: red;
+                transform: rotate(45deg);
+            }
+        } */
+
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+</body>
+</html>
